@@ -1,46 +1,50 @@
-{
-    "projects": {
-        "one": {
-            "name": "DishCovery",
-            "img": "/imgs/dishcovery_dashboard.PNG",
-            "description": "A comprehensive meal planning application",
-            "link": "https://kaiwright.github.io/dishcovery",
-            "repo": "https://github.com/kaiwright/dishcovery"
-        },
-        "two": {
-            "name": "Creative Academy Website",
-            "img": "/imgs/CA.PNG",
-            "description": "A website rebrand for TikTok's Creative Academy",
-            "link": "https://kaiwright.github.io/CA/",
-            "repo": "https://github.com/kaiwright/CA"
-        },
-        "three": {
-            "name": "Weather Dashboard",
-            "img": "/imgs/weatherDashboard2.PNG",
-            "description": "A weather dashboard to show the current and future forecast",
-            "link": "https://kaiwright.github.io/weatherDashboard/",
-            "repo": "https://github.com/kaiwright/weatherDashboard"
-        },
-        "four": {
-            "name": "Daily Planner",
-            "img": "/imgs/dailyPlanner_2.PNG",
-            "description": "A daily planner showing past, present and current events through colour-coding and allowing the user to put their own text",
-            "link": "https://kaiwright.github.io/dailyPlanner/",
-            "repo": "https://github.com/kaiwright/dailyPlanner"
-        },
-        "five": {
-            "name": "Password Generator",
-            "img": "/imgs/PasswordGenerator.PNG",
-            "description": "Password generator that generates a random password using selected criteria",
-            "link": "https://kaiwright.github.io/PasswordGenerator/",
-            "repo": "https://github.com/kaiwright/PasswordGenerator"
-        },
-        "six": {
-            "name": "Coming Soon...",
-            "img": "/imgs/Torrevisca.png",
-            "description": "New project coming soon",
-            "link": "#",
-            "repo": "#"
-        }
+[
+    {
+        "id": 1,
+        "name": "DishCovery",
+        "img": "/imgs/dishcovery_dashboard.PNG",
+        "description": "A comprehensive meal planning application",
+        "link": "https://kaiwright.github.io/dishcovery",
+        "repo": "https://github.com/kaiwright/dishcovery"
+    },
+    {
+        "id": 2,
+        "name": "Creative Academy Website",
+        "img": "/imgs/CA.PNG",
+        "description": "A website rebrand for TikTok's Creative Academy",
+        "link": "https://kaiwright.github.io/CA/",
+        "repo": "https://github.com/kaiwright/CA"
+    },
+    {
+        "id": 3,
+        "name": "Weather Dashboard",
+        "img": "/imgs/weatherDashboard2.PNG",
+        "description": "A weather dashboard to show the current and future forecast",
+        "link": "https://kaiwright.github.io/weatherDashboard/",
+        "repo": "https://github.com/kaiwright/weatherDashboard"
+    },
+    {
+        "id": 4,
+        "name": "Daily Planner",
+        "img": "/imgs/dailyPlanner_2.PNG",
+        "description": "A daily planner showing past, present and current events through colour-coding and allowing the user to put their own text",
+        "link": "https://kaiwright.github.io/dailyPlanner/",
+        "repo": "https://github.com/kaiwright/dailyPlanner"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "img": "/imgs/PasswordGenerator.PNG",
+        "description": "Password generator that generates a random password using selected criteria",
+        "link": "https://kaiwright.github.io/PasswordGenerator/",
+        "repo": "https://github.com/kaiwright/PasswordGenerator"
+    },
+    {
+        "id": 6,
+        "name": "Coming Soon...",
+        "img": "/imgs/Torrevisca.png",
+        "description": "New project coming soon",
+        "link": "#",
+        "repo": "#"
     }
-}
+]

@@ -1,48 +1,28 @@
 import React from 'react';
-import CardEl from '../components/CardEl';
 import Container from '../components/Container';
-import data from '../data/projects.json'
-
+import projectData from '../data/projects.json';
+import ProjectCard from '../components/ProjectCard';
+import Row from 'react-bootstrap/Row';
 
 function Projects() {
+    const projects = projectData
+
     return (
         <Container>
-            <CardEl
-                imgUrl={data.projects.one.img}
-                title={data.projects.one.name}
-                description={data.projects.one.description}
-                buttontxt="See more" />
-
-            <CardEl
-                imgUrl={data.projects.two.img}
-                title={data.projects.two.name}
-                description={data.projects.two.description}
-                buttontxt="See more" />
-
-            <CardEl
-                imgUrl={data.projects.three.img}
-                title={data.projects.three.name}
-                description={data.projects.three.description}
-                buttontxt="See more" />
-
-            <CardEl
-                imgUrl={data.projects.four.img}
-                title={data.projects.four.name}
-                description={data.projects.four.description}
-                buttontxt="See more" />
-
-            <CardEl
-                imgUrl={data.projects.five.img}
-                title={data.projects.five.name}
-                description={data.projects.five.description}
-                buttontxt="See more" />
-
-            <CardEl
-                imgUrl={data.projects.six.img}
-                title={data.projects.six.name}
-                description={data.projects.six.description}
-                buttontxt="See more" />
-
+            {/* Layout of cards */}
+            <Row xs={1} md={2} lg={3}>
+                {/* Maps project information onto each card */}
+                    {projects.map((project) => (
+                        <ProjectCard
+                            key={project.id}
+                            imgUrl={project.img}
+                            title={project.name}
+                            description={project.description}
+                            projectLink={project.link}
+                            repo={project.repo}
+                        />
+                    ))}
+            </Row>
         </Container>
     )
 }
