@@ -10,7 +10,7 @@ In this project, I got a lot of practice with using React, as well as learning h
 ## Installation
 
 Application deploys at live URL
-Link: https://kaiwright.github.io/portfolioWebsite/
+Link: https://main--portfoliowebsitekaiwright.netlify.app/
 
 ## Usage
 
