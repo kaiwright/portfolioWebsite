@@ -12,8 +12,8 @@ function ProjectCard(props) {
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.description}</Card.Text>
-                    <Link to={props.link} className='link-style'>Deployed Application</Link>
-                    <Link to={props.repo} className='link-style'>Repository</Link>
+                    <Link target='_blank' to={props.link} className='link-style'>Deployed Application</Link>
+                    <Link target='_blank' to={props.repo} className='link-style'>Repository</Link>
                 </Card.Body>
             </Card>
         </Col>

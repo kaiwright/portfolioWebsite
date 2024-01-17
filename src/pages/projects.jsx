@@ -18,7 +18,7 @@ function Projects() {
                             imgUrl={project.img}
                             title={project.name}
                             description={project.description}
-                            projectLink={project.link}
+                            link={project.link}
                             repo={project.repo}
                         />
                     ))}
