@@ -16,9 +16,9 @@ Link: https://main--portfoliowebsitekaiwright.netlify.app/
 
 The website deploys from the link above. 
 
-![ Picture of the landing page](/)
-![ Picture of the contact page](/)
-![ Picture of the projects page](/)
+![ Picture of the landing page](/public/imgs/portfolio1.PNG)
+![ Picture of the contact page](/public/imgs/portfolio2.PNG)
+![ Picture of the projects page](/public/imgs/portfolio3.PNG)
 
 ## License
 
