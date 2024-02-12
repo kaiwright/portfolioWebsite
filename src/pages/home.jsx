@@ -9,12 +9,12 @@ function Home() {
     return (
         <div>
             <Container>
-            <Hero>
+            <Hero className='w-100'>
                 
             </Hero>
             <Row>
                 <Col>
-                <img src='/imgs/Profile_Pic.jpg' width={'500px'}></img>
+                <img src='/imgs/Profile_Pic.jpg'  width={'500px'}></img>
                 </Col>
                 <Col>
                 <h3 className='text'>👋 Hi there!</h3>
