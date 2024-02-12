@@ -10,15 +10,15 @@ In this project, I got a lot of practice with using React, as well as learning h
 ## Installation
 
 Application deploys at live URL
-Link: https://kaiwright.github.io/portfolioWebsite/
+Link: https://main--portfoliowebsitekaiwright.netlify.app/
 
 ## Usage
 
 The website deploys from the link above. 
 
-![ Picture of the landing page](/)
-![ Picture of the contact page](/)
-![ Picture of the projects page](/)
+![ Picture of the landing page](/public/imgs/portfolio1.PNG)
+![ Picture of the contact page](/public/imgs/portfolio2.PNG)
+![ Picture of the projects page](/public/imgs/portfolio3.PNG)
 
 ## License
 
