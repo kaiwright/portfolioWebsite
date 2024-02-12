@@ -13,8 +13,8 @@ function NavbarEl() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link to="/" className="link-style">Home</Link>
-            <Link to="contact" className="link-style">Contact</Link>
             <Link to="projects" className="link-style">Projects</Link>
+            <Link to="contact" className="link-style">Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
