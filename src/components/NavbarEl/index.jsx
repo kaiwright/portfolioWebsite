@@ -6,7 +6,7 @@ import './style.css';
 
 function NavbarEl() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="md" className="nav">
       <Container>
         <Navbar.Brand>Kai Wright Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
