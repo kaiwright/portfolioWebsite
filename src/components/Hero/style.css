@@ -1,8 +1,11 @@
 .hero {
-  height: 500px;
-  background-size: cover;
-  background-image: url("/imgs/bannerimg.png");
-  background-position: center;
-  position: relative;
-  justify-items: center;
+  display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    height: 90vh; /* Set a height for the container */
+}
+
+.text {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }

@@ -7,7 +7,7 @@ function ProjectCard(props) {
 
     return (
         <Col>
-            <Card>
+            <Card className="mb-4">
                 <Card.Img variant="top" src={props.imgUrl} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>

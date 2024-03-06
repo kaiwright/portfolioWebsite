@@ -14,3 +14,12 @@
   .text {
     padding: 5%;
   }
+
+  .align-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
